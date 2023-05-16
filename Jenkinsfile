@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage ('build') {
+    stage ('Build') {
       steps {
         sh 'printenv'
         sh 'docker build -t tim_tech_repository .'
